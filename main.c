@@ -13,23 +13,30 @@ void sort_polar();
 
 int main()
 {
-    push(5,2);
-    push(4,4);
-    push(4,3);
-    push(7,6);
-    push(2,2);
-    push(1,1);
-    push(1,-1);
+    // push(5,2);
+    // push(4,4);
+    // push(4,3);
+    // push(7,6);
+    // push(2,2);
+    // push(1,1);
+    // push(1,-1);
     
-    print_polar();
-    sort_polar();
-    print_polar();
+    // print_polar();
+    // sort_polar();
+    // print_polar();
 
-    pop();
-    pop();
+    // pop();
+    // pop();
 
-    print();
-    sort();
-    print();
+    // print();
+    // sort();
+    // print();
+
+    push (2,2);
+    push (1,1);
+    push(1,-1);
+    sort_polar ();
+    print_polar ();
+
     return 0;
 }
